@@ -366,9 +366,10 @@ a:hover {
     .site-navigation {
         /* position: absolute;
         top: 50%;
-        right: 20px; */
+        right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%); */
+        float: right;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -700,8 +701,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
 }
 
 h2 {
@@ -741,6 +744,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
