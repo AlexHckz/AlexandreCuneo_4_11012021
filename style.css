@@ -728,6 +728,16 @@ h3 {
     color: #333333!important;
 }
 
+#title-bottom {
+    color: white !important;
+    font-weight: 600;
+}
+#contact-introduction {
+    color: #333333!important;
+    font-weight: 600;
+}
+
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
